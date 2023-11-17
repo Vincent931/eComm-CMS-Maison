@@ -1,0 +1,1431 @@
+/***WAIT********/
+/* GRID */
+.twelve { width: 100%; }
+/* COLUMNS */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-of-type {
+  margin-left: 0;
+}
+.container{
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+/* CLEARFIX */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+.row{
+  margin: 30px 0;
+}
+.three{
+  background-color: #eee;
+  padding: 50px 0;
+}
+#load_princ{
+  display:none;
+}
+/* ALL LOADERS */
+.loader{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+/* LOADER 6 */
+#loader-6{
+  top: 350px;
+  left: -2.5px;
+  z-index:1111;
+  visibility:hidden;
+  background-color:gray;
+  opacity:0.6;
+}
+#loader-6 span{
+  display: inline-block;
+  width: 10px;
+  height: 80px;
+  background-color: #3498db;
+}
+#loader-6 span:nth-child(1){
+  animation: grow 1s ease-in-out infinite;
+}
+#loader-6 span:nth-child(2){
+  animation: grow 1s ease-in-out 0.15s infinite;
+}
+#loader-6 span:nth-child(3){
+  animation: grow 1s ease-in-out 0.30s infinite;
+}
+#loader-6 span:nth-child(4){
+  animation: grow 1s ease-in-out 0.45s infinite;
+}
+@keyframes grow{
+  0%, 100%{
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  50%{
+    -webkit-transform: scaleY(1.8);
+    -ms-transform: scaleY(1.8);
+    -o-transform: scaleY(1.8);
+    transform: scaleY(1.8);
+  }
+}
+/*******************/
+/***Accept cookie****/
+.cookie-alert {
+   position: fixed;
+   bottom: 20px;
+   right:20px;
+   border-radius: 10px;
+   background:#2f2f2f;
+   color:#fff;
+   padding:10px 15px;
+   width:280px;
+   z-index:1002;
+}
+.cookie-alert a { 
+   display:block;
+   text-decoration:none;
+   text-align: center;
+   padding:5px 10px;
+   margin:8px auto 0 auto;
+   border-radius: 10px;
+   background:transparent;
+   border: 2px solid white;
+   color:white;
+   transition: all .3s ease;
+}
+   .cookie-alert a:hover {
+      background: #46A2D9;
+      color:#2f2f2f;
+   }
+@media only screen and (max-width:480px) {
+   .cookie-alert {
+      text-align: center;
+      left: 0; right: 0;;
+        margin: 0 auto;
+      max-width:700px;
+      padding:10px 30px;
+   }
+}
+/*Général*/
+.vis1{
+  display:block;
+}
+html{
+  background-color:white;
+  font-family: CerebriSans-Bold, -apple-system, system-ui, Roboto, sans-serif;
+  color: #5B6975;
+}
+body
+{
+  text-align:center;
+  display:block;
+  color: #5B6975;
+}
+a
+{
+  color:blue;
+  text-decoration: underline;
+  font-size:16px;
+}
+textarea
+{
+  border:1px solid grey;
+  background-color:#DDE3E3;
+  box-shadow:2px 2px 4px #DDE3E3;
+  color: #5B6975;
+}
+input
+{
+  border:1px solid grey;
+  background-color:#DDE3E3;
+  box-shadow:2px 2px 4px #DDE3E3;
+  font-size:14px;
+  color: #5B6975;
+}
+nav
+{
+  display:flex;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+  color: #5B6975;
+}
+a:hover{
+  background: #D0DCE7;
+}
+ul 
+{
+list-style:none;
+color: #5B6975;
+}
+ul a
+{
+  text-align:center;
+  color: #5B6975;
+}
+ul a:hover
+{
+  text-decoration: underline;
+  color: #5B6975;
+}
+table
+{
+  margin:auto;
+  color: #5B6975;
+}
+td
+{
+  width:450px;
+  color: #5B6975;
+}
+/*Menu de côté*/
+#nav_side
+{
+  position: fixed;
+  font-size:1.08em;
+  left:0;
+  top:250px;
+  display: flex;
+  flex-direction: column;
+  background-color:#DDE3E3;
+  padding-right:20px;
+  padding-left:0;
+}
+
+/* grey-color a*/
+a #grey_color
+{
+  border:1px solid grey;
+  text-decoration:none;
+  color: #5B6975;
+  background-color:#DDE3E3;
+  box-shadow:2px 2px 4px #DDE3E3;
+  padding: 3px;
+  width: 130px;
+}
+#grey_color
+{
+  border:1px solid grey;
+  text-decoration:none;
+  color: #5B6975;
+  background-color:#DDE3E3;
+  box-shadow:2px 2px 4px #DDE3E3;
+  padding: 3px;
+  width: 130px;
+}
+/*Menu Bas*/
+#en_ligne
+{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:1px;
+  margin-bottom:4px;
+  position:fixed;
+  bottom:5px;
+  background-color:white;
+  color: #5B6975;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:0;
+  padding-bottom:4px;
+  width:100%;
+}
+#en_ligne ul
+{
+	font-size:13px;
+	margin:auto;
+  display:inline-block;
+}
+#en_ligne ul a
+{
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+}
+/************************************/
+/*Inconnu*/
+table #table_side
+{
+  display:flex;
+  flex-direction:column;
+  vertical-align: middle;
+  position:fixed;
+  left:7px;
+  top:290px;
+  background-color:#D0DDDD;
+  margin-left: 0px;
+ }
+#enseigne
+{
+  position:fixed;
+  bottom:15px;
+  right:90px;
+}
+/*Images produit et images commandes*/
+.image_produit
+{
+  width:500px;
+}
+.p_largeur
+{
+  font-size:12px;
+  max-width:500px;
+  float:right;
+  clear:right;
+  vertical-align:center;
+}
+.titre
+{
+  font-size:16px;
+  color:blue;
+}
+.marge_basse2
+{
+  margin-bottom:60px;
+  position:relative;
+  right:-200px;
+}
+.image_sql{
+  width:490px;
+  border-radius:25px/25px;
+  border:1px solid black;
+  float:left;
+  margin-bottom:55px;
+}
+.petit_caddie{
+  width:22px;
+  height:22px;
+  position:relative;
+  right:-200px;
+}
+.petit_panier{
+  width:22px;
+  height:22px;
+  position:relative;
+  right:-200px;
+}
+.caddie
+{
+    width: 22px;
+    height: 22px;
+    position:relative;
+    bottom:0px;
+    left:0px
+}
+.monnaie
+{
+    width: 22px;
+    height: 22px;
+    position:relative;
+    bottom:0px;
+    left:-190px;
+}
+
+/*Description image1 image2 image3 tarifs.php*/
+.comments_p
+{
+    position:relative;
+    left:0px;
+    background-color:#D5E8FA;
+    padding:5px 9px 5px 5px;
+    margin-top:-8px;
+    text-decoration:underline;
+    border-radius:4px/4px
+}
+.precisiona
+{
+  background-color:#DCECC4;
+  width:50%;
+  padding:10px 10px 10px 10px;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:30px;
+  text-align:left;
+}
+/*Fin descriptions*/
+/*Image produit tarifs.php*/
+.espace_avant
+{
+  width:100px;
+  display:inline-block;
+}
+.produit_affich
+{
+  width:490px;
+  display:inline-block;
+  vertical-align:top;
+  margin-top:0px;
+}
+.espace_apres
+{
+  width:30px;
+  display:inline-block;
+}
+/*Description produits tarifs.php*/
+.title
+{
+  width:500px;
+  display:inline-block;
+  vertical-align:middle;
+  margin-top:15px;
+}
+/*Div tr td Effacé*/
+
+/*Div media min */
+.cache_div2
+{
+  display:none;
+}
+/* input checkbox radio icones-label-bandeau.php */
+.form_icons
+{
+  margin:auto;
+  text-align:center;
+  width:550px;
+}
+.icones_ch
+{
+  text-align:center;
+  margin:auto;
+}
+/* --------------------- */
+/*page contacter-nous */
+
+/* nav responsive*/
+#nav_side_resp
+{
+    display:none;
+}
+#en-ligne{
+  display:inline:block;
+}
+#nav_bas1,#nav_bas1 ul,#nav_bas1 ul a {
+  display:inline-block;
+}
+#nav_bas2,#nav_bas2 ul,#nav_bas2 ul a{
+  display:inline-block;
+}
+/**********************Admin Sample*****************/
+#bloc_admin_sample #largeur_table{
+  width:100%;
+}
+#td_img0{
+  text-align:center;
+  width:450px;
+  border-radius:25px/25px;
+  border:1px solid black;
+  margin-left:auto;
+  margin-right:auto
+}
+#td_1{
+  width:450px;
+  margin:0;
+}
+#td_2{
+  width:450px;
+  margin:0;
+}
+/* ajouter produit */
+/* effacer produit */
+/* ajouter explication */
+/* effacer explication */
+/* modifier produit / explication*/
+/* changer ordre */
+#form_aj_prod{
+  width:550px;
+  text-align:right;
+  margin:auto;
+}
+#area_aj_prod{
+  width:500px;
+}
+/* effacer sujet */
+#comment_adm_samp{
+  width:65%;
+  margin-left:16%;
+}
+/* page product-plus */
+.title_solo{
+  width:450px;
+  text-align:left;
+  margin:auto;
+  display:block;
+}
+.image_produit_solo{
+  width:450px;
+  margin:auto;
+  display:block;
+}
+.title_solo .titre{
+  text-align:left;
+  color:blue;
+  font-size:18px;
+}
+.price_solo{
+  display:inline-block;
+  text-align:left;
+}
+.title-solo .caddie{
+  text-align:right;
+  margin:0;
+  right:0px;
+  display:block;
+}
+.title_solo .price_solo .monnaie{
+  text-align:right;
+  margin-right:0;
+  left:0px;
+  display:block;
+  position:relative;
+  display:inline-block;
+}
+.title_solo .price_solo .marge_basse2{
+  text-align:left;
+  display:inline-block;
+}
+.precisiona_solo{
+  width:450px;
+  margin:auto;
+  display:block;
+  text-align:left;
+  background-color:#DCECC4;
+  padding:10px 10px 10px 10px;
+}
+.images_solo{
+  width:450px;
+  margin:auto;
+}
+.images_solo #largeur_image{
+ width:210px;
+ display:inline-block;
+ margin-top:30px;
+ margin-left:0;
+ margin-right:0;
+}
+.images_solo .espace_imagea1{
+ display:inline-block;
+ width:24px;
+}
+.comments_solo{
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:25px;
+  text-align:left;
+}
+.comments_solo .comments_p{
+  margin-bottom:25px;
+}
+/*google-ch map*/
+#map_form{
+  text-align:right;
+  margin:auto;
+  width:450px;
+}
+/*product-plus-ch.php*/
+.prod_plus_ch{
+  width:700px;
+  margin:auto;
+}
+/****** images width:1-2-3-4-5-6-7-8-9 00px ***/;
+.un{
+  width:100px;
+}
+.deux{
+  width:200px;
+}
+.trois{
+  width:300px;
+}
+.quatre{
+  width:400px;
+}
+.cinq{
+  width:500px;
+}
+.six{
+  width:600px;
+  height:auto;
+}
+.sept{
+  width:700px;
+}
+.huit{
+  width:800px;
+}
+.neuf{
+  width:900px;
+}
+.dix{
+  width:1000px;
+}
+.onze{
+  width:1100px;
+}
+.douze{
+  width:1200px;
+}
+ /*****br***panier*/
+.br_ff{
+  display:block;
+}
+/*--------------------*/
+/******admin sample product-plus-ch*****/
+#largeur_table #td_solo #td_imgsolo{
+  width:450px;
+}
+/************************/
+/****admin sdample publicite-ch ****/
+.pub_img{
+  text-align:center;
+  width:450px;
+  border-radius:25px/25px;
+  border:1px solid black;
+  margin-left:auto;
+  margin-right:auto
+}
+/***admin-sample telech all***/
+#form_telech{
+  width:550px;
+  margin:auto;
+  text-align:right;
+}
+/****Livraison internationale *****/
+.inp_livr_inter{
+  width:40px;
+}
+#form_livr_inter{
+  width:80%;
+  margin:auto;
+  text-align:left;
+}
+
+/*administration page.php */
+#A1,#A2,#A3,#A4,#A5,#A6,#A7,#A8,#A9,#A10,#A11,#A12,#A13,#A14,#A15,#A16,#A17,#A18,#A19,#A20{
+  display:none;
+}
+.A_voir
+{
+  display:block;
+}
+/*administration menus.php*/
+#contenair_menu_haut{
+  display:none;
+  margin:auto;
+}
+.menu_admin{
+  display:inline-block;
+  margin:auto;
+  width:290px;
+}
+.p_men_admin{
+  display:block;
+  margin:auto;
+}
+.inp_men_admin{
+  display:block;
+  margin:auto;
+}
+#contenair_menu_bas{
+  display:none;
+  margin:auto;
+  width:800px;
+}
+.cont_menuB{
+  display:inline-block;
+}
+.p_men_adminB{
+  display:inline-block;
+  margin:15px;
+}
+.inp_men_adminB{
+  display:inline-block;
+  margin:15px;
+}
+ .sauter_ligne{
+      display:none;
+}
+/*lister images*/
+.bl_admin{
+  width:200px;
+  display:inline-block;
+}
+/*creer un compte*/
+/*creer-compte*/
+.form_cr_compte{
+text-align:right;
+width:575px;
+margin:auto;
+}
+#blacklist_form{
+  width:550px;
+  margin:auto;
+  text-align:center;
+}
+/*admin sotck-factures */
+#vu_stock{
+  display:none;
+}
+/*affichage ventedirectereussie*/
+.conteneur_produita{
+  width:360px;
+  display:inline-block;
+  height:420px;
+  margin:10px;
+  text-align:left;
+  vertical-align: top;
+}
+.bla{
+  width:298px;
+  text-align:left;
+  margin:auto;
+}
+.form_99_400{
+  width:400px;
+}
+.form_99_500{
+  width:400px;
+}
+.form_99_600{
+  width:400px;
+}
+.form_99_700{
+  width:400px;
+}
+.form_99_800{
+  width:400px;
+}
+.form_99_900{
+  width:400px;
+}
+#check_paie{
+  width:15px;
+  position: relative;
+  top: 5px;
+}
+#identique{
+  width: 15px;
+  position: relative;
+  top: 5px;
+}
+.heading{
+  text-align:center;
+  margin:auto;
+}
+.inp_99{
+  width:300px;
+  background-color:white;
+  border-bottom:1px solid gray;
+  border-top:0px solid white;
+  border-left:0px solid white;
+  border-right:0px solid white;
+}
+.inp_99_a{
+  width:300px;
+  background-color:white;
+  border-bottom:1px solid gray;
+  border-top:0px solid white;
+  border-left:0px solid white;
+  border-right:0px solid white;
+  font-size: 0.1em;
+}
+#pays, #pays_livr{
+  width:280px;
+  background-color:white;
+  border-bottom:1px solid gray;
+  border-top:0px solid white;
+  border-left:0px solid white;
+  border-right:0px solid white;
+  margin-right:30px;
+}
+}
+.textarea_99{
+  background-color:white;
+  border-bottom:0px solid white;
+  border-top:0px solid white;
+  border-left:0px solid white;
+  border-right:0px solid white;
+}
+.inp_99_subm{
+  text-decoration:none;
+  border-radius:10px/10px;
+  color:white;
+  background-color: #5B6975;
+  padding:4px
+}
+.a_99_subm{
+  text-decoration:none;
+  border-radius:10px/10px;
+  color:white;
+  background-color: #5B6975;
+  padding:4px;
+}
+.inp_99_subm2{
+  text-decoration:none;
+  border-radius:10px/10px;
+  color:white;
+  background-color: #5B6975;
+  padding:4px
+}
+.inp_99_subm3{
+  text-decoration:none;
+  border-radius:1px/1px;
+  color: white;
+  background-color: #5B6975;
+  padding:4px
+}
+.a_99_subm2{
+  text-decoration:none;
+  border-radius:10px/10px;
+  color:white;
+  background-color: #5B6975;
+  padding:4px;
+}
+.vis_m{
+  display:none;
+}
+.vis_m1{
+  display:block;
+}
+.vis_m3{
+  display: none;
+}
+@-moz-document url-prefix(){
+  .vis_m {
+    display:block;
+  }
+  .vis_m3{
+  display: block;
+}
+}
+.vis_m3{
+  display: none;
+}
+/*   */
+*{
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left:0 auto;
+  padding-right: 0 auto;
+}
+#bloc_page{
+  box-sizing: border-box;
+  margin: 0;
+}
+body > div{
+  width: 900px;
+  margin-left: 400px;
+  margin-right: 0 auto;
+  padding-left: 0 auto;
+  padding-right: 0 auto;
+}
+@-moz-document url-prefix(){
+img#mimage.fond_changeant{
+  display: block;
+  position:relative;
+  left:-1%;
+  height:280px;
+  top: 50px;
+  margin-right:0;
+  padding:0;
+  border:0;
+  min-width:101.4%;
+  max-width:101.4%;
+  }
+  a.a_telech{
+    z-index: 99999;
+  }
+  h3.h3_telech{
+    z-index: 99999;
+  }
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 1024px)  {
+  /*****br***firefox*/
+  /**cookie alert*/
+  .cookie-alert {
+   position: fixed;
+   width:250px;
+   bottom: 20px;
+   right:0;
+   margin-left:20px;
+  }
+  .br_ff{
+    display:none;
+  }
+  #aff_block{
+    display: none;
+  }
+    /* mimage*/
+  }
+  /*img#mimage.fond_changeant{
+  display:block;
+  min-width:100%;
+  max-width:100%;
+  height:auto;
+  top: 0px;
+  }
+  /*#mimage {
+
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 125%;
+    height: 130px;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+    height: 130px;
+  }
+}*/
+/*mimage*/
+/*#back_img{
+  display:block;
+  min-width:102vw;
+}
+img#mimage.fond_changeant{
+  display: block;
+  /*position:relative;*/
+  /*left:-1%;*/
+  /*height:auto;
+  top: 50px;
+  margin-right:0;
+  padding:0;
+  border:0;
+  min-width:102vw;
+  max-width:102vw;
+}*/
+    a.bouton_rouge
+    {
+        height: 15px;
+        position: absolute;
+        /*right: 25px;
+        bottom: 5px;
+        font-size: 1.4em;
+        */
+        padding: 2px 2px 2px 2px;
+    }
+    /************************/
+    /******admin sample product-plus-ch*****/
+    #largeur_table #td_solo #td_imgsolo{
+      width:300px;
+    }
+    /************************/
+    /****admin sdample publicite-ch ****/
+    .pub_img{
+      width:300px;
+      margin-left:0;
+      text-align:left;
+    }
+    .pub_tr{
+      margin-left:0;
+      text-align:left;
+    }
+    .pub_td1{
+      margin-left:0;
+      text-align:left;
+    }
+    .pub_td1, .pub_td2{
+      display:block;
+    }
+    /******************/
+    /***admin-sample telech all***/
+    #form_telech{
+      width:300px;
+    }
+    /**********************/
+    #bloc_page
+    {
+    font-size:13px;
+    width:330px;
+    }
+    #grey_color
+    {
+      font-size:14px;
+      width:130px;
+    }
+    a #grey_color
+    {
+      font-size:14px;
+      width:60px;
+    }
+    a:hover
+    {
+      background-color:#D0DCE7;
+    }
+    input{
+        font-size:14px;
+    }
+    a {
+        font-size:14px;
+    }
+    #menu_h_img{
+        width:45px;
+    }
+    #en_ligne_haut
+    {
+      list-style-type: disc;
+      position:fixed;
+      background-color:white;
+      width:99%;
+      margin-left:0px;
+      margin-right:0px;
+      padding-left:0px;
+      padding-right:0px;
+      border-left:0px;
+      border-right:0px;
+      vertical-align:top;
+    }
+    #en_ligne_haut ul
+    {
+      vertical-align:top;
+      list-style-type:disc;
+      font-size:1.4em;
+      margin-left:0px;
+      margin-right:0px;
+      padding-left:0px;
+      padding-right:0px;
+      border-left:0px;
+      border-right:0px;
+      width:24.5%;
+    }
+    #en_ligne_haut ul a
+    {
+      vertical-align:top;
+      font-size:13.5px;
+      display:inline-block;
+      text-decoration:underline;
+      margin-left:4px;
+      margin-right:4px;
+      padding-left:4px;
+      padding-right:4px;
+      border-left:4px;
+      border-right:4px;
+    
+    }
+   
+    /*Div tr td Effacé*/
+    .cache_div
+    {
+      display:none;
+    }
+    /* page produits*/
+    .espace_avant
+    {
+        width:1px;
+        display:block;
+    }
+    .espace-apres
+    {
+        width:1px;
+        display:block;
+    }
+    .title{
+        width:300px;
+        display:block;
+        margin:auto;
+    }
+    .produit_affich 
+    {
+        width:300px;
+        display:block;
+        margin:auto;
+    }
+    .image_produit
+    {
+      width:300px;
+      display:block;
+      margin:auto;
+    }
+    .image_sql
+    {
+      width:290px;
+      margin-bottom:15px;
+      display:block;
+      margin:auto;
+    }
+    .caddie
+    {
+        width:22px;
+    }
+    .monnaie
+    {
+    width: 22px;
+    height: 22px;
+    position:relative;
+    bottom:0px;
+    left:-103px;
+    }
+    .precisiona
+    {
+      display:block;
+      background-color:#DCECC4;
+      width:290px;
+      padding:10px 10px 10px 10px;
+      margin-left:auto;
+      margin-right:auto;
+      margin-bottom:4px;
+      margin-top:2px;
+      text-align:left;
+    }
+    .espace_image1, .espace_image2, .espace_imagea1
+    {
+        display:none;
+    }
+    .espace1, #largeur_image, .espace2, .espace3, .espacea1, espacea2
+    {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:4px;
+        margin-bottom:4px;
+    }
+    .espace1
+    {
+        margin-top:8px;
+    }
+    .espace3
+    {
+        margin-top:8px;
+    }
+    #largeur_image
+    {
+        width:290px;
+    }
+    .marge_basse2
+    {
+        position:relative;
+        text-align:center;
+        right:0px;
+    }
+    .comments_p
+    {
+        display:none;
+    }
+    .comments_img
+    {
+        display:none;
+    }
+    
+    /*index paiement*/
+    input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    }
+    input[type=checkbox] {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    }
+    input[type="checkbox"]:checked {
+    background: black;
+    margin:0px;
+    position: relative;
+    }
+    select{
+        width:330px;
+    }
+    #ind_paie_bloc{
+    width:330px;
+    }
+    /*nous contacter */
+    #divnc{
+    width:320px;
+    }
+    #nch1{
+    width:320px;
+    }
+    #esp_contact1
+    {
+      width:175px;
+      height:auto;
+      margin:auto;
+      text-align:center;
+      display:block;
+      vertical-align:top;
+    }
+    /*creer un compte*/
+    /*creer-compte*/
+    .form_cr_compte{
+      text-align:right;
+      width:100%;
+    }
+    /*index*/
+    #bloc_admin_sample #largeur_table{
+      width:100%;
+    }
+    #td_img0{
+      width:120px;
+    }
+    #td_1{
+      width:120px;
+    }
+    #td_2{
+      width:180px;
+    }
+    #bloc_admin_sample #largeur_image{
+      width:99px;
+    }
+    #bloc_admin_sample .espace_image1, #bloc_admin_sample .espace_image2{
+      display:none;
+    }
+    /* ajouter produit */
+    /* effacer produit */
+    /* ajouter explication */
+    /* effacer explication */
+    /* modifier produit / explication*/
+    /* changer ordre */
+    #form_aj_prod{
+      width:100%;
+    }
+    #area_aj_prod{
+      width:300px;
+    }
+    /* effacer sujet */
+    #comment_adm_samp{
+    width:100%;
+    margin:auto;
+    }
+    #bloc_admin_eff_suj #grey_color{
+      font-size:16px;
+    }
+    /*modifier sujet,
+    modifier ordre sujet */
+    /**** OK ***/
+    /* effacer commentaires */
+    #bloc_admin_eff_com #grey_color{
+      font-size:16px;
+    }
+    /* html basic color-ch */
+    /****** OK ****/
+    /* accueil-ch */
+    #bloc_admin_ch_acc #grey_color{
+      font-size:16px;
+    }
+    #grey_color_sub_ch_col{
+     color: #5B6975;
+      background-color:#DDE3E3;
+      text-decoration:none;
+      border:1px solid black;
+      font-size:16px;
+      width:125px;
+    }
+    /*policy ch */
+    #bloc_admin_ch_policy #grey_color{
+      font-size:16px;
+    }
+    /*contact ch */
+    #bloc_admin_ch_contact #grey_color{
+      font-size:16px;
+    }
+    /* cgv ch */
+    #bloc_admin_ch_cgv #grey_color{
+      font-size:16px;
+    }
+    /* ch paiement ok */
+    #bloc_admin_ch_paie_ok #grey_color{
+      font-size:16px;
+    }
+    /* ch paiement error */
+    #bloc_admin_ch_paie_nonk #grey_color{
+      font-size:16px;
+    }
+    /*menu haut ch,
+    menu bas ch */
+    /***** OK ****/
+    /*charger-image, effacer image */
+    /******* OK *****/
+    /* icones bandeau */
+    #bloc_admin_ico .form_icons
+    {
+      width:100%;
+    }
+    #bloc_admin_ico .icones_ch
+    {
+      text-align:right;
+    }
+    /* charger pdf, effacer pdf, mail init, mail reinit, mail achat */
+    /********* OK ************/
+    /* changé60px*/
+    #bloc_admin_soc_ch #a123
+    {
+      display:inline-block;
+      text-align:center;
+      /*height:60px;*/
+    }
+    /* changé 22*/
+    /* comptes, stock-factures, incident de paiement*/
+    /**** OK ****/
+    /* page product-plus */
+    .title_solo{
+      width:300px;
+      text-align:left;
+      margin:auto;
+    }
+    .image_produit_solo{
+      width:300px;
+      margin:auto;
+    }
+    .title-solo .caddie{
+      text-align:right;
+      right:0px;
+    }
+    .title_solo .monnaie{
+      text-align:right;
+      right:0px;
+    }
+    .un{
+      width:300px;
+    }
+    .deux{
+      width:300px;
+    }
+    .trois{
+      width:300px;
+    }
+    .quatre{
+      width:300px;
+    }
+    .cinq{
+      width:300px;
+    }
+    .six{
+      width:300px;
+    }
+    .sept{
+      width:300px;
+    }
+    .huit{
+      width:300px;
+    }
+    .neuf{
+      width:300px;
+    }
+    .dix{
+      width:300px;
+    }
+    .onze{
+      width:300px;
+    }
+    .douze{
+      width:300px;
+    }
+    /* categories*/
+    #p_cat{
+    width:300px;
+    }
+    #form_cat{
+    width:300px;
+    }
+    .img_cat{
+      width:25px;
+    }
+    /*index / */
+    #nav_menuH{
+      max-width:350px;
+      min-width:349px;
+      display:block;
+      margin:auto;
+      text-align:center;
+    }
+    /*blog index*/
+    #bloc_page_b{
+      margin:0;
+      border:0;
+      padding:0;
+    }
+
+    #img_nav_menuHb{
+      width:120px;
+    }
+    .jeuxcw{
+      width:300px;
+    }
+    .a_blog_ind{
+      width:150px;
+      padding:4px;
+    }
+    #boutons_connect1{
+      margin:auto;
+      text-align:center;
+    }
+    #bt_img{
+      width:100px;
+    }
+    /*creer un compte creer compte*/
+    /*questions*/
+    /*factures*/
+    
+    .form_99_400{
+      width:320px;
+    }
+    .form_99_500{
+     width:320px;
+    }
+    .form_99_600{
+     width:320px;
+    }
+    .form_99_700{
+      width:320px;
+    }
+    .form_99_800{
+      width:320px;
+    }
+    .form_99_900{
+     width:320px;
+    }
+    @-moz-document url-prefix(){
+      /*****br firefox***/
+      .br_ff{
+        display:none;
+      }
+      /*index*/
+      /*img#mimage.fond_changeant{
+      height: auto;
+      display:block;
+      min-width:100%;
+      max-width:100%;
+      position: relative;
+      top: -150px;
+      }*/
+      .bouton_rouge
+      {
+        height: 15px;*/
+        position: absolute;
+        right: 10px;
+        bottom: 0px;
+        padding: 3px 3px 2px 3px;
+      }
+      /*index paiement*/
+      #ind_paie #containair #banniere_select{
+        height:70px;
+        font-size:2.1em;
+        padding-bottom:20px;
+      }
+    }
+}

@@ -1,0 +1,48 @@
+#on charge le module d'apache
+#LoadModule rewrite_module modules/mod_rewrite.so
+# On suit les liens symboliques
+Options +FollowSymlinks
+#on empeche l'auto completion
+Options -Multiviews
+# Activation du mod rewrite d'Apache 
+RewriteEngine On
+
+#index.php 
+#Réécriture
+RewriteRule ^Adresse-Facturation$ index.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule index.php Adresse-Facturation [r=301,L,nc]
+
+
+#adresse-livraison.php
+#Réécriture
+RewriteRule ^Adresse-Livraison$ adresse-livraison.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule adresse-livraison.php Adresse-Livraison [r=301,L,nc]
+
+#adresse-livraison-list.php
+#Réécriture
+#RewriteRule ^Adresse-Livraison2$ adresse-livraison-list.php?stop [QSA,L,NC,S=15]
+#RewriteCond %{QUERY_STRING} !stop
+#RewriteRule adresse-livraison-list.php Adresse-Livraison2 [r=301,L,nc]
+
+########################################################
+########################################################
+# Exemple de Réécriture des URL des commentaires 
+#<base href="/www/">
+#RewriteCond %{THE_REQUEST} \scommentaires\.php\?sujet=([0-9]+)\s [NC]
+#RewriteRule ^ detail-commenter-/%1/? [R=301,L]
+#####Internally rewrite /foo/XXX/ to /foo.php?id=XXX
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^detail-commenter-([0-9]+)$ commentaires.php?sujet=$1 [L]
+########################################################
+# 2eme exemple de réécriture de confirmation.php
+#confirmation-compte.php.php
+#Réécriture
+#RewriteRule     ^compte-ok-(.*)-(.*)$  confirmation-compte.php?mail=$1&key=$2 [E=BREAK:1,L]
+#RewriteCond     %{ENV:REDIRECT_BREAK}     !^1$
+#RewriteCond     %{QUERY_STRING}   ^mail=(.*)&key=(.*)$
+#RewriteRule     ^confirmation-compte.php$       %1-/%2? [R=301,L]
+########################################################
+#RewriteCond %{REQUEST_FILENAME} !-f

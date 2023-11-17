@@ -1,0 +1,681 @@
+[20-Nov-2021 12:03:04 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[20-Nov-2021 12:03:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[20-Nov-2021 20:48:24 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[20-Nov-2021 20:48:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[23-Nov-2021 22:56:36 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[23-Nov-2021 22:56:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[23-Nov-2021 23:00:43 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[23-Nov-2021 23:00:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[25-Nov-2021 02:15:08 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[25-Nov-2021 02:15:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[28-Nov-2021 11:14:45 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[28-Nov-2021 11:14:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[28-Nov-2021 16:32:29 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[28-Nov-2021 16:32:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Nov-2021 01:34:20 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Nov-2021 01:34:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Nov-2021 12:43:11 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Nov-2021 12:43:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[01-Dec-2021 07:03:14 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[01-Dec-2021 07:03:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[02-Dec-2021 02:22:17 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[02-Dec-2021 02:22:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[02-Dec-2021 04:07:14 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[02-Dec-2021 04:07:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[03-Dec-2021 03:18:40 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[03-Dec-2021 03:18:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[03-Dec-2021 07:52:38 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[03-Dec-2021 07:52:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[04-Dec-2021 12:18:46 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[04-Dec-2021 12:18:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[05-Dec-2021 18:04:19 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[05-Dec-2021 18:04:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[06-Dec-2021 03:58:51 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[06-Dec-2021 03:58:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[06-Dec-2021 11:03:21 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[06-Dec-2021 11:03:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[06-Dec-2021 14:25:48 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[06-Dec-2021 14:25:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[07-Dec-2021 20:23:47 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[07-Dec-2021 20:23:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[07-Dec-2021 20:36:39 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[07-Dec-2021 20:36:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 02:04:47 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 02:04:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 02:07:21 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 02:07:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 02:40:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 02:40:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 03:16:15 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 03:16:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 03:52:58 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 03:52:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 04:55:45 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 04:55:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 06:15:13 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 06:15:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 06:48:48 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 06:48:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 13:24:12 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Dec-2021 13:24:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[09-Dec-2021 05:31:27 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[09-Dec-2021 05:31:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[09-Dec-2021 05:55:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[09-Dec-2021 05:55:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Dec-2021 10:51:01 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Dec-2021 10:51:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Dec-2021 12:17:58 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Dec-2021 12:17:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Dec-2021 20:53:58 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Dec-2021 20:53:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Dec-2021 01:55:51 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Dec-2021 01:55:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Dec-2021 03:51:30 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Dec-2021 03:51:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Dec-2021 12:31:26 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Dec-2021 12:31:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[14-Dec-2021 15:43:11 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[14-Dec-2021 15:43:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[14-Dec-2021 20:07:49 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[14-Dec-2021 20:07:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[15-Dec-2021 15:17:43 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[15-Dec-2021 15:17:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[17-Dec-2021 04:51:08 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[17-Dec-2021 04:51:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[17-Dec-2021 20:57:48 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[17-Dec-2021 20:57:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[18-Dec-2021 05:32:36 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[18-Dec-2021 05:32:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[18-Dec-2021 14:46:32 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[18-Dec-2021 14:46:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[18-Dec-2021 17:37:39 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[18-Dec-2021 17:37:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[19-Dec-2021 21:07:03 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[19-Dec-2021 21:07:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[20-Dec-2021 12:39:59 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[20-Dec-2021 12:39:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[20-Dec-2021 16:17:35 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[20-Dec-2021 16:17:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Dec-2021 21:16:30 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Dec-2021 21:16:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Dec-2021 23:29:48 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Dec-2021 23:29:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[25-Dec-2021 00:23:20 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[25-Dec-2021 00:23:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[25-Dec-2021 14:55:17 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[25-Dec-2021 14:55:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 02:44:04 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 02:44:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:53:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:24 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:26 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Dec-2021 19:54:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 02:40:43 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 02:40:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 03:51:42 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 03:51:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 04:58:37 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 04:58:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 05:47:02 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 05:47:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 06:31:46 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 06:31:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 07:20:01 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 07:20:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 09:16:22 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 09:16:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 10:44:49 UTC] PHP Warning:  Undefined variable $id_sujet in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.post.php on line 69
+[31-Dec-2021 10:44:51 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Dec-2021 10:44:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[05-Jan-2022 03:17:11 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[05-Jan-2022 03:17:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Jan-2022 21:33:51 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[08-Jan-2022 21:33:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 09:52:36 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 09:52:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 21:10:03 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 21:10:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 22:37:09 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 22:37:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 23:02:44 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 23:02:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 23:30:01 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 23:30:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 23:57:43 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[11-Jan-2022 23:57:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Jan-2022 01:28:45 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Jan-2022 01:28:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Jan-2022 02:25:04 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Jan-2022 02:25:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Jan-2022 04:08:09 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[12-Jan-2022 04:08:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Jan-2022 01:39:13 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Jan-2022 01:39:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Jan-2022 08:53:19 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Jan-2022 08:53:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Jan-2022 13:57:41 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Jan-2022 13:57:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Jan-2022 16:35:38 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[13-Jan-2022 16:35:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 10:50:18 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 10:50:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 12:58:48 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 12:58:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 14:21:20 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 14:21:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 14:56:56 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 14:56:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 16:03:25 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 16:03:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 16:31:46 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 16:31:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 18:33:03 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 18:33:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 19:49:36 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[21-Jan-2022 19:49:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[23-Jan-2022 09:37:18 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[23-Jan-2022 09:37:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 08:40:07 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 08:40:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:16 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:16 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:22 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:27 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:28 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:28 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:29 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 09:51:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 11:07:12 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[24-Jan-2022 11:07:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[28-Jan-2022 20:19:15 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[28-Jan-2022 20:19:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[29-Jan-2022 11:17:19 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[29-Jan-2022 11:17:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[29-Jan-2022 16:05:11 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[29-Jan-2022 16:05:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 02:08:56 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 02:08:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 13:39:45 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 13:39:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 20:31:02 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 20:31:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 22:37:01 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 22:37:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 23:15:20 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[30-Jan-2022 23:15:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Jan-2022 00:31:38 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Jan-2022 00:31:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Jan-2022 03:44:57 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Jan-2022 03:44:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Jan-2022 05:21:35 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Jan-2022 05:21:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Jan-2022 09:58:02 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[31-Jan-2022 09:58:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[01-Feb-2022 20:44:23 UTC] PHP Warning:  require(head2.php): Failed to open stream: No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7
+[01-Feb-2022 20:44:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'head2.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php:7
+Stack trace:
+#0 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/chatt/commentaires.php on line 7

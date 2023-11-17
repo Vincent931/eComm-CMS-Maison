@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://vincent-dev-web.fr/accueil.html</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/tarifs.php</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/produit-publicite1</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/produit-publicité2</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/resultat-recherche</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/adresse-cheque</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/adresse-courrier</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/Conditions-Generale-de-Ventes</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/Contact-et-Infos</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/Politique-de-Confidentialite</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/desinscription</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/blog/Questions-Reponses</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/blog/se-connecter</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/blog/jeux-concours</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/blog/se-deconnecter</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/blog/creer-un-compte</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/blog/Question</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/blog/Vous-devez-vous-connecter</loc>
+</url>
+<url>
+<loc>https://vincent-dev-web.fr/blog/</loc>
+</url>
+</urlset>
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://example.com/sample1.html</loc>
+    <image:image>
+      <image:loc>http://example.com/image.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://example.com/photo.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://example.com/sample2.html</loc>
+    <image:image>
+      <image:loc>http://example.com/picture.jpg</image:loc>
+      <image:caption>A funny picture of a cat eating cabbage</image:caption>
+      <image:geo_location>Lyon, France</image:geo_location>
+      <image:title>Cat vs Cabbage</image:title>
+      <image:license>http://example.com/image-license</image:license>
+    </image:image>
+  </url>
+</urlset>-->

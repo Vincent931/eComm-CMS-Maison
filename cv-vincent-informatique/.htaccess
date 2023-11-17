@@ -1,0 +1,25 @@
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+deny from 164.132.164.137
+</Files>
+
+#on charge le module d'apache
+#LoadModule rewrite_module modules/mod_rewrite.so
+# On suit les liens symboliques
+Options +FollowSymlinks
+#on empeche l'auto completion
+Options -Multiviews
+# Activation du mod rewrite d'Apache 
+RewriteEngine On
+
+#index.php en accueil index.php est comme effacé du site
+#on réécrit l'url
+#Réécriture de index vers index.php
+RewriteRule ^index$ index.php?=stop [QSA,L,NC,S=15]
+#empeche de tourner en boucle
+RewriteCond %{QUERY_STRING} !stop
+#301 on redirige
+RewriteRule index.php index [r=301,L,nc]
+

@@ -1,0 +1,19 @@
+AuthName "Pages ADMINISTRATION PROTEGE Veuillez Entrez Identifiant et Mot de Passe"
+AuthType Basic
+AuthUserFile "/home5/vvhv1249/vincent-dev-web.fr/administration/.htpasswd"
+Require valid-user
+
+#on charge le module d'apache
+#LoadModule rewrite_module modules/mod_rewrite.so
+# On suit les liens symboliques
+Options +FollowSymlinks
+#on empeche l'auto completion
+Options -Multiviews
+# Activation du mod rewrite d'Apache 
+RewriteEngine On
+
+#index.php
+#Réécriture
+RewriteRule ^index$ index.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule index.php index [r=301,L,nc]

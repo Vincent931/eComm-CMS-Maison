@@ -1,0 +1,56 @@
+<?php session_start();
+
+$old_session_id=session_id();
+$_SESSION['destroyed']=time();
+
+
+if(isset($_SESSION['destroyed']) AND $_SESSION['destroyed']>time()-300)
+{
+  session_regenerate_id();
+}
+
+require 'boutique0.php';
+$req41=$bdd->prepare('SELECT * FROM JavaScript WHERE Page =?');
+$req41->execute(array($_SERVER['PHP_SELF']));
+$donnees41=$req41->fetch();
+
+require 'texte1.php';
+
+$req21=$bdd1->query('SELECT * FROM accueil');
+$accueil=$req21->fetch();
+
+$req24=$bdd1->query('SELECT * FROM societe');
+$name=$req24->fetch();
+$url=$name['url'];
+
+$req25=$bdd->query('SELECT * FROM pdf');
+$pdf=$req25->fetch();
+$req41=$bdd->prepare('SELECT * FROM JavaScript WHERE Page =?');
+$req41->execute(array($_SERVER['PHP_SELF']));
+$donnees41=$req41->fetch();
+$req=$bdd1->query('SELECT contenu FROM politique');
+$politique=$req->fetch();
+
+$nb_site=strlen($_SERVER['REQUEST_URI']);
+$fichier=substr($_SERVER["REQUEST_URI"], 1, $nb_site);
+
+
+$req150=$bdd->prepare('SELECT * FROM page WHERE nom=?');
+$req150->execute(array($fichier));
+$donnees150=$req150->fetch();
+?>
+<!DOCTYPE html>
+<html id="bloc_page">
+<?php require 'head.php'; ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script><?php echo $donnees41['Contenu'];?></script>
+	<body>
+<?php require 'menu-haut.php'; 
+		require 'menu-haut-no-burger.php'; ?>
+<br><div class="vis1"><br><br><br><br><br></div>
+<?php if(isset($_SESSION['message'])){echo '<h3 style="text-align:center;color:red">'.$_SESSION['message'].'</h3>';$_SESSION['message']="";} ?>
+<?php echo html_entity_decode($donnees150['contenu']);?>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<?php require 'footer.php'; ?>
+</body>
+</html>

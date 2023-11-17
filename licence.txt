@@ -1,0 +1,7 @@
+Le code www-1-zero est un Logiciel codé en PHP sous Licence Propriétaire,
+Toute duplication ou modification du Code Source est interdite.
+Une licence est propriétaire lorsque son utilisation demande de consentir à des interdictions de partage ou d'utilisation. Elle est définie par les ayants droit, qui sont couvertes par le droit auteur. Elle permet à l'auteur de garder le contrôle de l'évolution de son oeuvre et de maintenir un monopole sur une quelconque innovation.
+L'utilisation est limitée à l'execution du logiciel et l'utilisateur n'a accès au code source qu'à ese risques et périls, les mises à jour de nouvelles versions sont éventuellement payantes.
+Cette licence est également appelé "privateur"
+Noter que la privation n'est pas due aux licences mais aux lois de « propriété intellectuelle » (droit d'auteur, copyright, brevet, …) qui confèrent un monopole d'utilisation aux titulaires des privilèges.
+LICENCE www-1-zero 1.0.0

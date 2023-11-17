@@ -1,0 +1,57 @@
+/*->1400px*/
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1599px){
+/*  1024px  */
+
+
+
+@-moz-document url-prefix(){
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+/*  >768px  */
+
+
+@-moz-document url-prefix(){
+}
+}
+
+@media all and (max-width: 767px){
+/*   >330px   */
+
+
+@-moz-document url-prefix(){
+}
+}
+
+
+/*********************************************************/
+/*->1400px*/
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1599px){
+/*  1024px  */
+
+
+
+@-moz-document url-prefix(){
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+/*  >768px  */
+
+
+@-moz-document url-prefix(){
+}
+}
+
+@media all and (max-width: 767px){
+/*   >330px   */
+
+
+@-moz-document url-prefix(){
+}
+}

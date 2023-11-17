@@ -1,0 +1,52 @@
+#on charge le module d'apache
+#LoadModule rewrite_module modules/mod_rewrite.so
+# On suit les liens symboliques
+Options +FollowSymlinks
+#on empeche l'auto completion
+Options -Multiviews
+# Activation du mod rewrite d'Apache 
+RewriteEngine On
+
+#payment-accept.php
+#Réécriture
+RewriteRule Paiement-Accepte payment-accept.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule payment-accept.php Paiement-Accepte [r=301,L,nc]
+
+#retour-error.php
+#Réécriture
+RewriteRule Paiement-Annule retour-error.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule retour-error.php Paiement-Annule [r=301,L,nc]
+
+#recap.php
+#Réécriture
+RewriteRule RECAPITULATIF recap.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule recap.php RECAPITULATIF [r=301,L,nc]
+
+#recap.php
+#Réécriture
+RewriteRule Bon-de-Commande editer-commande.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule editer-commande.php Bon-de-Commande [r=301,L,nc]
+########################################################
+########################################################
+# Exemple de Réécriture des URL des commentaires 
+#<base href="/www/">
+#RewriteCond %{THE_REQUEST} \scommentaires\.php\?sujet=([0-9]+)\s [NC]
+#RewriteRule ^ detail-commenter-/%1/? [R=301,L]
+#####Internally rewrite /foo/XXX/ to /foo.php?id=XXX
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^detail-commenter-([0-9]+)$ commentaires.php?sujet=$1 [L]
+########################################################
+# 2eme exemple de réécriture de confirmation.php
+#confirmation-compte.php.php
+#Réécriture
+#RewriteRule     ^compte-ok-(.*)-(.*)$  confirmation-compte.php?mail=$1&key=$2 [E=BREAK:1,L]
+#RewriteCond     %{ENV:REDIRECT_BREAK}     !^1$
+#RewriteCond     %{QUERY_STRING}   ^mail=(.*)&key=(.*)$
+#RewriteRule     ^confirmation-compte.php$       %1-/%2? [R=301,L]
+########################################################
+#RewriteCond %{REQUEST_FILENAME} !-f

@@ -1,0 +1,94 @@
+#on charge le module d'apache
+#LoadModule rewrite_module modules/mod_rewrite.so
+# On suit les liens symboliques
+Options +FollowSymlinks
+#on empeche l'auto completion
+Options -Multiviews
+# Activation du mod rewrite d'Apache 
+RewriteEngine On
+
+#index.php
+#Réécriture
+RewriteRule ^Questions-Reponses$ index.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule index.php Questions-Reponses [r=301,L,nc]
+
+#jeux-concours.php
+#Réécriture
+RewriteRule ^jeux-concours$ jeux-concours.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule jeux-concours.php jeux-concours [r=301,L,nc]
+
+RewriteCond %{THE_REQUEST} \scommentaires\.php\?sujet=([0-9]+)\s [NC]
+RewriteRule ^detail-commenter-/%1/? [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^detail-commenter-([0-9]+)$ commentaires.php?sujet=$1 [L]
+
+#confirmation.error.php
+#Réécriture
+RewriteRule ^compte-deja-confirme$ confirmation.error.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule confirmation.error.php compte-deja-confirme [r=301,L,nc]
+
+#mon-compte.php
+#Réécriture
+RewriteRule ^se-connecter$ mon-compte.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule mon-compte.php se-connecter [r=301,L,nc]
+
+#deconnect-page.php
+#Réécriture
+RewriteRule ^se-deconnecter$ deconnect-page.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule deconnect-page.php se-deconnecter [r=301,L,nc]
+
+#creer-un-compte.php
+#Réécriture
+RewriteRule ^creer-un-compte$ creer-un-compte.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule creer-un-compte.php creer-un-compte [r=301,L,nc]
+
+#creer-un-compte.list.php
+#Réécriture
+RewriteRule ^donnees-du-compte$ creer-un-compte.list.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule creer-un-compte.list.php donnees-du-compte [r=301,L,nc]
+
+#questions.php
+#Réécriture
+RewriteRule ^Question$ questions.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule questions.php Question [r=301,L,nc]
+
+#connected-before.php
+#Réécriture
+RewriteRule ^Vous-devez-vous-connecter$ connected-before.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule connected-before.php Vous-devez-vous-connecter [r=301,L,nc]
+
+#error-comment.php
+#Réécriture
+RewriteRule ^ERREUR$ error-comment.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule error-comment.php ERREUR [r=301,L,nc]
+########################################################
+########################################################
+# Exemple de Réécriture des URL des commentaires 
+#<base href="/www/">
+#RewriteCond %{THE_REQUEST} \scommentaires\.php\?sujet=([0-9]+)\s [NC]
+#RewriteRule ^ detail-commenter-/%1/? [R=301,L]
+#####Internally rewrite /foo/XXX/ to /foo.php?id=XXX
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^detail-commenter-([0-9]+)$ commentaires.php?sujet=$1 [L]
+########################################################
+# 2eme exemple de réécriture de confirmation.php
+#confirmation-compte.php.php
+#Réécriture
+#RewriteRule     ^compte-ok-(.*)-(.*)$  confirmation-compte.php?mail=$1&key=$2 [E=BREAK:1,L]
+#RewriteCond     %{ENV:REDIRECT_BREAK}     !^1$
+#RewriteCond     %{QUERY_STRING}   ^mail=(.*)&key=(.*)$
+#RewriteRule     ^confirmation-compte.php$       %1-/%2? [R=301,L]
+########################################################
+#RewriteCond %{REQUEST_FILENAME} !-f

@@ -1,0 +1,21 @@
+
+User-agent: Googlebot
+Allow: /
+Sitemap: https://vincent-dev-web.fr/sitemap.xml
+
+User-agent: bingbot
+Allow: /
+Sitemap: https://vincent-dev-web.fr/sitemap.xml
+
+
+User-agent: msnbot
+Allow: /
+Sitemap: https://vincent-dev-web.fr/sitemap.xml
+
+
+User-agent: *
+Allow: /
+Sitemap: https://vincent-dev-web.fr/sitemap.xml
+
+
+

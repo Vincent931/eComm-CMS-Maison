@@ -1,0 +1,111 @@
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 164
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 164
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 165
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 166
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 167
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 168
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 168
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 170
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 173
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 173
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 174
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 175
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 176
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 177
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 177
+[23-Oct-2021 20:14:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 179
+[23-Oct-2021 20:14:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 16
+[23-Oct-2021 20:14:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 18
+[23-Oct-2021 20:14:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 20
+[23-Oct-2021 20:14:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 22
+[23-Oct-2021 20:14:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 24
+[23-Oct-2021 20:14:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 26
+[23-Oct-2021 20:14:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 28
+[23-Oct-2021 20:14:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 31
+[23-Oct-2021 20:14:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_runtime() in /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php:1043
+Stack trace:
+#0 /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php(77): FPDF->_dochecks()
+#1 /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php(54): FPDF->__construct()
+#2 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php on line 1043
+[23-Oct-2021 20:15:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php on line 14
+[23-Oct-2021 20:15:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php on line 16
+[23-Oct-2021 20:15:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php on line 18
+[23-Oct-2021 20:15:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php on line 20
+[23-Oct-2021 20:15:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php on line 22
+[23-Oct-2021 20:15:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php on line 24
+[23-Oct-2021 20:15:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php on line 26
+[23-Oct-2021 20:15:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php on line 29
+[23-Oct-2021 20:15:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_runtime() in /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php:1043
+Stack trace:
+#0 /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php(77): FPDF->_dochecks()
+#1 /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php(52): FPDF->__construct()
+#2 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php on line 1043
+[23-Oct-2021 20:15:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_runtime() in /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php:1043
+Stack trace:
+#0 /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php(77): FPDF->_dochecks()
+#1 /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php(52): FPDF->__construct()
+#2 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php on line 1043
+[23-Oct-2021 20:15:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_runtime() in /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php:1043
+Stack trace:
+#0 /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php(77): FPDF->_dochecks()
+#1 /home5/vvhv1249/vincent-dev-web.fr/administration/facture-vendeur.php(52): FPDF->__construct()
+#2 {main}
+  thrown in /home5/vvhv1249/vincent-dev-web.fr/administration/fpdf.php on line 1043
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 164
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 164
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 165
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 166
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 167
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 168
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 168
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 170
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 173
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 173
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 174
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 175
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 176
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 177
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 177
+[23-Oct-2021 20:25:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/vente-reussie.php on line 179
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 16
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 18
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 20
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 22
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 24
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 26
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 28
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 31
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 123
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 124
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 125
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 125
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 125
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 128
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 130
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 132
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 132
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 134
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 136
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 138
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 138
+[23-Oct-2021 20:25:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home5/vvhv1249/vincent-dev-web.fr/administration/bon-livraison.php on line 139
+[11-Nov-2021 15:44:41 UTC] PHP Warning:  chmod(): No such file or directory in /home5/vvhv1249/vincent-dev-web.fr/administration/interm-charger-img.php on line 60
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1
+[11-Nov-2021 20:23:39 UTC] PHP Warning:  Undefined variable $i in /home5/vvhv1249/vincent-dev-web.fr/administration/affichage-prod-v.php on line 1

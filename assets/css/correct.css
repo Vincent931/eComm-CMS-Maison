@@ -1,0 +1,11 @@
+.img-fluidv{
+	max-width: 400px;
+}
+@media (max-width:575.98px){
+	.img-fluidv{
+		width: 260px;
+	}
+}
+.resp-vn0{
+	margin-top: 40px;
+}

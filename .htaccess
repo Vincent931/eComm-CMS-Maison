@@ -1,0 +1,270 @@
+#on charge le module d'apache
+#LoadModule rewrite_module modules/mod_rewrite.so
+# On suit les liens symboliques
+Options +FollowSymlinks
+#on empeche l'auto completion
+Options -Multiviews
+# Activation du mod rewrite d'Apache 
+RewriteEngine On
+####################################################### sur tous les répertoires##########################################
+################# Cache ##############################
+## contrôle du cache navigateur - Expire headers
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault "access plus 7200 seconds"
+	ExpiresByType image/jpg 			"access plus 1 week"
+	ExpiresByType image/jpeg 			"access plus 1 week"
+	ExpiresByType image/png 			"access plus 1 week"
+	ExpiresByType image/gif 			"access plus 1 week"
+	ExpiresByType image/svg+xml			"access plus 1 week"
+	AddType image/x-icon .ico
+	ExpiresByType image/ico 			"access plus 1 week"
+	ExpiresByType image/icon 			"access plus 1 week"
+	ExpiresByType image/x-icon 			"access plus 1 week"
+	ExpiresByType text/css 				"access plus 1 week"
+	ExpiresByType text/javascript 		"access plus 1 week"
+	ExpiresByType text/html 			"access plus 7200 seconds"
+	ExpiresByType application/xhtml+xml 	"access plus 7200 seconds"
+	ExpiresByType application/javascript 	"access plus 1 week"
+	ExpiresByType application/x-javascript 	"access plus 1 week"
+	ExpiresByType application/x-shockwave-flash "access plus 1 week"
+</IfModule>
+#################""cache control #######################
+<IfModule mod_headers.c>
+<FilesMatch "\\.(ico|jpe?g|png|gif|swf)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+<FilesMatch "\\.(css)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+<FilesMatch "\\.(js)$">
+Header set Cache-Control "max-age=216000, private"
+</FilesMatch>
+<FilesMatch "\\.(x?html?|php)$">
+Header set Cache-Control "max-age=600, private, must-revalidate"
+</FilesMatch>
+</IfModule>
+##########brotli compression
+<IfModule mod_headers.c>
+    # Sert des fichiers CSS compressés par brotli, s'ils existent
+    # et si le client supporte brotli.
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+    RewriteRule "^(.*)\.css"              "$1\.css\.br" [QSA]
+
+    # Sert des fichiers JS compressés par brotli, s'ils existent
+    # et si le client supporte brotli.
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+    RewriteRule "^(.*)\.js"               "$1\.js\.br" [QSA]
+
+
+    # Sert des types de contenu corrects, et évite la double compression.
+    RewriteRule "\.css\.gz$" "-" [T=text/css,E=no-brotli:1]
+    RewriteRule "\.js\.gz$"  "-" [T=text/javascript,E=no-brotli:1]
+
+
+    <FilesMatch "(\.js\.br|\.css\.br)$">
+      # Sert un type d'encodage correct.
+      Header append Content-Encoding br
+
+      # Force les mandataires à mettre en cache séparément les fichiers css/js
+      # compressés ou non par brotli.
+      Header append Vary Accept-Encoding
+    </FilesMatch>
+</IfModule>
+##################empecher les comparaisons de version car cache activé##########
+Header unset ETag
+FileETag none
+################### Si on utilise pas de cookies###########
+#Header unset Set-Cookie
+#RequestHeader unset Cookie
+###############################################################################################################################
+
+#index.php en accueil index.php est comme effacé du site
+#on réécrit l'url
+#Réécriture de index.php vers accueil.html
+RewriteRule ^accueil.html$ index.php?=stop [QSA,L,NC,S=15]
+#empeche de tourner en boucle
+RewriteCond %{QUERY_STRING} !stop
+#301 on redirige
+RewriteRule index.php accueil.html [r=301,L,nc]
+
+#produit-solo
+#Réécriture
+RewriteRule     ^achat-(.*)$  produit-solo.php?id_prod=$1 [E=BREAK:1,L]
+RewriteCond     %{ENV:REDIRECT_BREAK}     !^1$
+RewriteCond     %{QUERY_STRING}   ^id_prod=(.*)$
+RewriteRule     produit-solo.php      %1? [R=301,L]
+
+#panier.php
+#Réécriture
+#RewriteRule ^PANIER$ panier.php?stop [QSA,L,NC,S=15]
+#RewriteCond %{QUERY_STRING} !stop
+#RewriteRule panier.php PANIER [r=301,L,nc]
+
+#tarif-publicite1
+#Réécriture
+RewriteRule ^produit-publicite1$ tarif-publicite1.php?=stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule tarif-publicite1.php produit-publicite1 [r=301,L,nc]
+
+#tarif-publicite2
+#Réécriture
+RewriteRule ^produit-publicité2$ tarif-publicite2.php?=stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule tarif-publicite2.php produit-publicite2 [r=301,L,nc]
+
+#tarifs impossible $get noexist or isset (valuation impossible)
+#telechargement impossible $get noexist or isset (valuation impossible)
+
+#recherche-result.php
+#Réécriture
+RewriteRule ^resultat-recherche$ recherche-result.php?=stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule recherche-result.php resultat-recherche [r=301,L,nc]
+
+
+#facture.php
+#Réécriture
+RewriteRule ^factures$ facture.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule facture.php factures [r=301,L,nc]
+
+#facture-pdf.php?mail=&ref=
+#Réécriture
+RewriteRule     ^la-facture-(.*)-(.*)$  facture-pdf.php?mail=$1&ref=$2 [E=BREAK:1,L]
+RewriteCond     %{ENV:REDIRECT_BREAK}     !^1$
+RewriteCond     %{QUERY_STRING}   ^mail=(.*)&ref=(.*)$
+RewriteRule     ^facture-pdf.php$       %1-/%2? [R=301,L]
+
+#adresse-cheque.php
+#Réécriture
+RewriteRule ^adresse-cheque$ adresse-cheque.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule adresse-cheque.php adresse-cheque [r=301,L,nc]
+
+#adresse-courrier.php
+#Réécriture
+RewriteRule ^adresse-courrier$ adresse-courrier.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule adresse-courrier.php adresse-courrier [r=301,L,nc]
+
+#mise-en-garde.php
+#Réécriture
+RewriteRule ^Conditions-Generale-de-Ventes$ mise-en-garde.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule mise-en-garde.php Conditions-Generale-de-Ventes [r=301,L,nc]
+
+#nous-contacter.php
+#Réécriture
+RewriteRule ^Contact-et-Infos$ nous-contacter.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule nous-contacter.php Contact-et-Infos [r=301,L,nc]
+
+#politique-confidentialite.php
+#Réécriture
+RewriteRule ^Politique-de-Confidentialite$ politique-confidentialite.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule politique-confidentialite.php Politique-de-Confidentialite [r=301,L,nc]
+
+#confirmation-compte.php.php
+#Réécriture
+RewriteRule     ^compte-ok-(.*)-(.*)$  confirmation-compte.php?mail=$1&key=$2 [E=BREAK:1,L]
+RewriteCond     %{ENV:REDIRECT_BREAK}     !^1$
+RewriteCond     %{QUERY_STRING}   ^mail=(.*)&key=(.*)$
+RewriteRule     ^confirmation-compte.php$       %1-/%2? [R=301,L]
+
+#landing-page.php
+#Réécriture
+RewriteRule ^landing-page$ landing-page.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule landing-page.php landing-page [r=301,L,nc]
+
+#se-desinscrire.php
+#Réécriture
+RewriteRule ^desinscription$ se-desinscrire.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule se-desinscrire.php desinscription [r=301,L,nc]
+
+#toomuch.php
+#Réécriture
+RewriteRule ^trop-de-produits-panier$ toomuch.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule toomuch.php trop-de-produits-panier [r=301,L,nc]
+
+#mon-compte.php
+#
+
+#reinitialisation.list.php
+#Réécriture
+RewriteRule     ^reinitialisation-etape-1-(.*)-(.*)$  reinitialisation.list.php?mail=$1&key=$2  [E=BREAK:1,L]
+RewriteCond     %{ENV:REDIRECT_BREAK}     !^1$
+RewriteCond     %{QUERY_STRING}   ^mail=(.*)&key=(.*)$
+RewriteRule     ^reinitialisation.list.php$   %1-/%2? [R=301,L]
+
+#reinitialisation.php
+#Réécriture
+RewriteRule ^reinitialiser$ reinitialisation.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule reinitialisation.php reinitialiser [r=301,L,nc]
+
+#payment-accept.php
+#Réécriture
+RewriteRule ^Paiement-Accepte$ payment-accept.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule payment-accept.php Paiement-Accepte [r=301,L,nc]
+
+#retour-error.php
+#Réécriture
+RewriteRule ^Paiement-Annule$ retour-error.php?stop [QSA,L,NC,S=15]
+RewriteCond %{QUERY_STRING} !stop
+RewriteRule retour-error.php Paiement-Annule [r=301,L,nc]
+
+#product-plus.php
+#Réécriture
+#RewriteRule ^produit-best$ product-plus.php?=stop [QSA,L,NC,S=15]
+#RewriteCond %{QUERY_STRING} !stop
+#RewriteRule product-plus.php produit-best [r=301,L,nc]
+
+#recap.php
+#Réécriture
+#RewriteRule paiement/RECAPITULATIF paiement/recap.php?stop [QSA,L,NC,S=15]
+#RewriteCond %{QUERY_STRING} !stop
+#RewriteRule paiement/recap.php paiement/RECAPITULATIF [r=301,L,nc]
+
+########################################################
+########################################################
+# Exemple de Réécriture des URL des commentaires 
+#<base href="/www/">
+#RewriteCond %{THE_REQUEST} \scommentaires\.php\?sujet=([0-9]+)\s [NC]
+#RewriteRule ^ detail-commenter-/%1/? [R=301,L]
+#####Internally rewrite /foo/XXX/ to /foo.php?id=XXX
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^detail-commenter-([0-9]+)$ commentaires.php?sujet=$1 [L]
+########################################################
+# 2eme exemple de réécriture de confirmation.php
+#confirmation-compte.php.php
+#Réécriture
+#RewriteRule     ^compte-ok-(.*)-(.*)$  confirmation-compte.php?mail=$1&key=$2 [E=BREAK:1,L]
+#RewriteCond     %{ENV:REDIRECT_BREAK}     !^1$
+#RewriteCond     %{QUERY_STRING}   ^mail=(.*)&key=(.*)$
+#RewriteRule     ^confirmation-compte.php$       %1-/%2? [R=301,L]
+########################################################
+
+# Protéger les fichiers .htaccess et .htpasswds
+<Files ~ "^.*\.([Hh][Tt][AaPp])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+# Protéger le fichier signifiant.php
+<files signifiant.php>
+order allow,deny
+deny from all
+</files>
+<files db.class.php>
+order allow,deny
+deny from all
+</files>

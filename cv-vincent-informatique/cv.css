@@ -1,0 +1,289 @@
+header nav ul
+{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+ul li
+{
+	
+	margin-left: 12px;
+	margin-right: 8px;
+	font-size: large;
+}
+a
+{
+    color: #189FCC;
+}
+#page
+{
+	width: 900px;
+	margin: auto;
+}
+h1
+{
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	Font-weight: bold;
+	text-decoration: none;
+	font-size:18px;
+}
+h3
+{
+	Text-decoration: underline;
+	Font-weight: bold;
+}
+#page
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#titrea
+{
+	background-color: #FCC488;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid black;
+	border-radius: 5px/5px;
+	text-align: center;
+}
+#articlea
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+}
+#sous_bloca1 h3, #sous_bloca1 p
+{
+	display: flex;
+	flex-direction: column;
+	margin-right: 2px;
+	width: 60%;
+	height:auto;
+}
+#sous_bloca2 h3, #sous_bloca2 p, #sous_bloca2 a
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 2px;
+	width: 85%;
+	height:auto;
+}
+img
+{
+	float: right;
+	width: 80px;
+	height: 80px;
+	border-radius:40px;
+	margin:auto;
+}
+#articleb
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height:auto;
+}
+#articleb h1
+{
+	background-color: #B1D3DE;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid black;
+	border-radius: 5px/5px;
+	text-align: center;
+}
+#articlec
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height:auto;
+}
+#souligne
+{
+    text-decoration: underline;
+}
+#articlec h1
+{
+	background-color: #9BF283;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid black;
+	border-radius: 5px/5px;
+	text-align: center;
+}
+#articled
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height:auto;
+}
+#blocd1
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+#blocd2
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+#titrea2
+{
+	background-color: #FCC488;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2polid black;
+	border-radius: 5px/5px;
+	text-align: center;
+}
+footer h2
+{
+	background-color: #DCF24E;
+	font-size: large;
+	text-align: center;
+	border-radius: 5px/5px;
+}
+footer nav ul
+{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+@media all and (min-width: 120px) and (max-width: 1024px)
+{
+    header nav ul
+    {
+	    display: flex;
+	    flex-direction: column;
+        list-style-type: disc;
+    }
+    ul li
+    {
+	
+	    margin-left: 5px;
+    	font-size: 1.3em;
+    }
+    #page
+    {
+	    width: auto;
+        display: flex;
+	    flex-direction: column;
+    }
+    h1
+    {
+        font-size: 1.6em;
+        width: 100%;
+    }
+    p
+    {
+        font-size: 1.1em;    
+    }
+    h3
+    {
+        font-size: 1.3em;
+        width: 100%;
+        text-align: left;
+    }
+    ol li
+    {
+        font-size: 1.1em;
+    }
+    #titrea
+    {
+	    padding-top: 2px;
+	    padding-bottom: 2px;
+	}
+    #articlea
+    {
+	    display: flex;
+	    flex-direction: column;
+	    width: 100%;
+	    height: auto;
+    }
+    #sous_bloca1 h3, #sous_bloca1 p
+    {
+    	display: flex;
+	    flex-direction: column;
+	    margin-left: 2px;
+	    width: 90%;
+    }
+    #sous_bloca2 h3, #sous_bloca2 p, #sous_bloca2 a
+    {
+	    display: flex;
+    	flex-direction: column;
+	    margin-left: 2px;
+	    width: 95%;
+    }
+    #photo
+    {
+	    text-align: right;
+	    width: 170px;
+
+    }
+    img
+    {
+        width: 50%;
+    }
+    #articleb
+    {
+	    display: flex;
+	    flex-direction: column;
+	    width: 100%;
+    }
+    #articleb h1
+    {
+	    padding-top: 2px;
+	    padding-bottom: 2px;
+	}
+    #articlec h1
+    {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	}
+	#articlec
+    {
+	    display: flex;
+	    flex-direction: column;
+	    width: 100%;
+    }
+    #articled
+    {
+	    display: flex;
+	    flex-direction: column;
+	    width: 100%;
+    }
+    #blocd1
+    {
+	    display: flex;
+	    flex-direction: column;
+    	width: 100%;
+    	text-align: center;
+    }
+    #blocd2
+    {
+	    display: flex;
+	    flex-direction: column;
+	    width: 100%;
+    }
+    #titrea2
+    {
+	    padding-top: 2px;
+	    padding-bottom: 2px;
+	}
+    footer h2
+    {
+	font-size: 1.3em;
+	}
+    footer nav ul
+    {
+	    display: flex;
+	    flex-direction: column;
+        list-style-type: disc;
+    }
+}
